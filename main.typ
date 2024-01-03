@@ -29,7 +29,7 @@ shao0054\@e.ntu.edu.sg |
 
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
 Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore, Singapore\
-- Expected: Honours (Highest Distinction); GPA: 4.58 / 5.0
+- Expected: Honours (Highest Distinction); GPA: 4.60 / 5.0
 - Dean's List (Academic Year 2022-23)
 // - Avaliable Period: January 2024 - June 2024 (Credit bearing)
 - Relevant Modules: Algorithm Design and Analysis, Operating System, Advanced Computer Architecture, Computer Network, etc.
@@ -106,6 +106,6 @@ HackOSS Technical Director #h(1fr) Jun 2022 -- Jun 2023 \
 
 - 2022 ICPC Asia Manila Regional Silver Medal (Ranked 2) #h(1fr) Dec 2022
 - 2023 ICPC Asia Jakarta Regional Ranked 13 #h(1fr) Dec 2023
-  - Qualified for 2023-24 ICPC Asia Pacific Region Playoff Contest
+  - Qualified for 2023-24 ICPC Asia Pacific Championship
 - Shopee Code League Finalist #h(1fr) Mar 2022
 - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
