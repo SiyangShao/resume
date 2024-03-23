@@ -65,7 +65,7 @@ Backend Engineer Intern (Video Infrastructure) #h(1fr)  Jan 2024 -- May 2024
 #chiline()
 
 *NTU competitive Programming (ICPC) Team* #h(1fr) #link("https://icpc.global/ICPCID/B15T259WIX3C") \
-Team FailedSystemTest / CheesyLeopard / NTRLover #h(1fr) Dec 2021 -- Current\
+Team FailedSystemTest / CheesyLeopard / NTRLover #h(1fr) Dec 2021 -- Mar 2024\
 - *Impact*: Representing the school in *competitive programming contests*, using *C++* to solve complex algorithm questions.
 - *Awards*: Ranked 2 and secured the *Silver medal* at the 2022-23 ICPC Asia Manila Regional, solved 6 problems and ranked 22 for 2023-24 *ICPC Asia Pacific Championship*.
 
