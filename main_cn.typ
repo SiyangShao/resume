@@ -29,7 +29,7 @@ shao0054\@e.ntu.edu.sg |
 #chiline()
 
 #link("https://www.ntu.edu.sg/")[*南洋理工大学(NTUsg)*] #h(1fr) 2021年8月 -- 2025年6月 \
-工学学士 (计算机工程) #h(1fr) 新加坡, 新加坡\
+工学学士 (计算机工程) #h(1fr) 新加坡\
 - 一等一荣誉学位; GPA: 4.60 / 5.0
 - 院长名单 (2022-23学年)
 // - Avaliable Period: January 2024 - June 2024 (Credit bearing)
