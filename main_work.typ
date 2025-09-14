@@ -51,8 +51,7 @@ Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 
 == Open Source Projects
 #chiline()
-*ServerlessLLM* #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM") 
-Jun 2024 - May 2025 \
+*ServerlessLLM* #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM") \
 Core Contributor #h(1fr) Jun 2024 -- May 2025 \
 - Added ROCm support to enable high-throughput model loading on AMD GPUs and reducing cold-start latency  
 - Maintained the system controller coordinating lifecycle management of inference backends (init, health, scale in/out), improving reliability under multi-tenant workloads  
