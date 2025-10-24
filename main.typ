@@ -19,17 +19,17 @@
   v(-5pt)
 }
 
-= SHAO Siyang
+= Siyang Shao
 
-siyang.shao\@outlook.com |
-+86-15021988618 | #link("https://github.com/SiyangShao")[github.com/SiyangShao]
+sshao\@gatech.edu|
+(470) 378-9780 | #link("https://github.com/SiyangShao")[github.com/SiyangShao]
 
 == Education
 #chiline()
 
 #link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Current \
-PhD student in Computer Science #h(1fr) Atlanta, Georgia, USA \
-- Research Area: Large Language Model Inference, Distributed System
+Ph.D. Program in Computer Science #h(1fr) Atlanta, Georgia, USA \
+- Expected to Master Out: June 2027
 
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
 Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore, Singapore\
@@ -68,16 +68,16 @@ Backend Engineer Intern (Video Infrastructure) #h(1fr)  Jan 2024 -- May 2024
 - Implemented persistent global SLI monitor and manage system, contributing to improvements in full-link stability
 
 
-== Co-Curricular Activities
-#chiline()
+// == Co-Curricular Activities
+// #chiline()
 
-// *NTU Open Source Society* \
-// HackOSS Technical Director #h(1fr) Jun 2022 -- Jun 2023 \
-// - Organized open-source community events in 'HackOSS Day'
-// - Lead team to complete projects, help team members learn and use open-source tools
-*NTU ICPC Team* #h(1fr) #link("https://icpc.global/ICPCID/B15T259WIX3C") \
-Team Member #h(1fr) Dec 2021 -- Mar 2025\
-- Represented the school in ICPC (International Collegiate Programming Contest) and solved complex algorithm problems
+// // *NTU Open Source Society* \
+// // HackOSS Technical Director #h(1fr) Jun 2022 -- Jun 2023 \
+// // - Organized open-source community events in 'HackOSS Day'
+// // - Lead team to complete projects, help team members learn and use open-source tools
+// *NTU ICPC Team* #h(1fr) #link("https://icpc.global/ICPCID/B15T259WIX3C") \
+// Team Member #h(1fr) Dec 2021 -- Mar 2025\
+// - Represented the school in ICPC (International Collegiate Programming Contest) and solved complex algorithm problems
 
 
 == Awards
@@ -92,4 +92,3 @@ Team Member #h(1fr) Dec 2021 -- Mar 2025\
 - NTU President Research Scholar in Academic Year 2023-24 #h(1fr) Aug 2024
 // - Shopee Code League Finalist #h(1fr) Mar 2022
 // - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
-
