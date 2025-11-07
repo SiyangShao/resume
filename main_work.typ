@@ -58,7 +58,7 @@ Core Contributor #h(1fr) Jun 2024 -- May 2025 \
 - Collaborated with contributors by reviewing PRs, triaging issues, and updating docs to ensure release quality and reproducibility
 
 
-== Awards
+== Honors and Awards
 #chiline()
 
 - 2022 ICPC Asia Manila Regional Ranked 2 #h(1fr) Dec 2022
@@ -70,3 +70,9 @@ Core Contributor #h(1fr) Jun 2024 -- May 2025 \
 - NTU President Research Scholar in Academic Year 2023-24 #h(1fr) Aug 2024
 // - Shopee Code League Finalist #h(1fr) Mar 2022
 // - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
+
+== Skills
+#chiline()
+
+- Programming Language: C++, Go, Python, OCaml
+- Tech Skills: Linux, Git, Docker, Kubernetes, ZeroMQ, PyTorch, vLLM, SGLang

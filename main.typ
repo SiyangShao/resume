@@ -19,68 +19,46 @@
   v(-5pt)
 }
 
-= Siyang Shao
-
-sshao\@gatech.edu|
+= Siyang SHAO
+sshao\@gatech.edu |
 (470) 378-9780 | #link("https://github.com/SiyangShao")[github.com/SiyangShao]
-
 == Education
 #chiline()
-
 #link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Current \
-Ph.D. Program in Computer Science #h(1fr) Atlanta, Georgia, USA \
-- Expected to Master Out: June 2027
+Master of Science in Computer Science #h(1fr) Atlanta, Georgia, USA \
+- Expected Graduation: Jun 2027
 
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
 Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore, Singapore\
 - Honours (Highest Distinction); GPA: 4.63 / 5.0
 
-== Research Experience
-#chiline()
-
-*Cluster Level Scheduing for LLM Inference* #h(1fr) \
-Supervised by Prof. Dmitrii Ustiugov #h(1fr) Mar 2024 -- May 2025 \
-- Investigated cluster-level scheduling for large language model inference in serverless systems
-- Explored optimal scaling policies and mechanisms for serverless LLM environments
-// - Utilized GPU memory usage for a memory-centric scheduling LLM inference system
-// - Optimized overall throughput and reduced request queueing latency
-
-== Open Source Projects
-#chiline()
-
-*ServerlessLLM* #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM") \
-Developer #h(1fr) Jun 2024 -- May 2025 \
-// - ROCm support, vLLM integration, and part of maintainance
-- Supported ROCm for `sllm-store`, the internal library of ServerlessLLM which provides high-performance model loading
-- Integrated vLLM backend, enabling ServerlessLLM project to perform inference through vLLM
-- Explored methods to enable vLLM backend to benefit from high-performance model loading via `sllm-store`
-- Maintained the controller of the ServerlessLLM project, which manages the lifecycle of the inference backends
 
 == Work Experience
 #chiline()
-*Jane Street Asia Limited* #h(1fr) Hong Kong SAR\
-Software Engineer Intern #h(1fr) May 2025 -- Jul 2025 \
-- Designed a library to support callee version conversion for JSON-RPC, enabling seamless alignment between JSON-RPC and async-RPC. This allows both RPC types to be registered using a unified declaration and automates version conversion, simplifying integration and maintainance.
-- Designed a database prototye that incrementally synchronizes an internal database (defined by a custom DSL) with a new SQL database. This approach simplifies usage for users and achieves approximately 5x faster query performance.
+*Jane Street Asia Limited* #h(1fr) Hong Kong SAR \
+Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
+- Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
+- Designed an incremental synchronization prototype to mirror an internally defined DSL-based database into a SQL backend, supporting schema evolution with idempotent upserts and conflict-safe application of changes
+- Benchmarked the new path and observed ~5× faster queries versus the legacy approach under representative workloads; added end-to-end tests and tooling to validate correctness and performance
+
 *TikTok Pte. Ltd.* #h(1fr) Singapore \
-Backend Engineer Intern (Video Infrastructure) #h(1fr)  Jan 2024 -- May 2024
-- Co-Designed and implemented metrics metadata discover and manage system, bridged the gap between development teams and SRE teams concerning the monitoring metrics
-- Implemented persistent global SLI monitor and manage system, contributing to improvements in full-link stability
+Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
+- Co-designed and implemented a metrics metadata management service that standardizes metric naming, ownership, and label conventions, bridging development and SRE practices across large-scale services
+- Built a persistent global SLI framework that defines, computes, and monitors service-level indicators consistently across regions and tiers, enabling uniform dashboards and alerting
+- Automated discovery and governance for new metrics/SLIs with validation and documentation hooks, improving observability hygiene and reducing onboarding friction
+- Partnered with SREs to roll out the framework to high-priority services, improving visibility and reducing manual intervention during incidents
 
 
-// == Co-Curricular Activities
-// #chiline()
-
-// // *NTU Open Source Society* \
-// // HackOSS Technical Director #h(1fr) Jun 2022 -- Jun 2023 \
-// // - Organized open-source community events in 'HackOSS Day'
-// // - Lead team to complete projects, help team members learn and use open-source tools
-// *NTU ICPC Team* #h(1fr) #link("https://icpc.global/ICPCID/B15T259WIX3C") \
-// Team Member #h(1fr) Dec 2021 -- Mar 2025\
-// - Represented the school in ICPC (International Collegiate Programming Contest) and solved complex algorithm problems
+== Open Source Projects
+#chiline()
+*ServerlessLLM* #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM") \
+Core Contributor #h(1fr) Jun 2024 -- May 2025 \
+- Added ROCm support to enable high-throughput model loading on AMD GPUs and reducing cold-start latency
+- Maintained the system controller coordinating lifecycle management of inference backends (init, health, scale in/out), improving reliability under multi-tenant workloads
+- Collaborated with contributors by reviewing PRs, triaging issues, and updating docs to ensure release quality and reproducibility
 
 
-== Awards
+== Honors and Awards
 #chiline()
 
 - 2022 ICPC Asia Manila Regional Ranked 2 #h(1fr) Dec 2022
@@ -92,3 +70,9 @@ Backend Engineer Intern (Video Infrastructure) #h(1fr)  Jan 2024 -- May 2024
 - NTU President Research Scholar in Academic Year 2023-24 #h(1fr) Aug 2024
 // - Shopee Code League Finalist #h(1fr) Mar 2022
 // - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
+
+== Skills
+#chiline()
+
+- Programming Language: C++, Go, Python, OCaml
+- Tech Skills: Linux, Git, Docker, Kubernetes, ZeroMQ, PyTorch, vLLM, SGLang
