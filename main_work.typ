@@ -35,13 +35,13 @@ Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore, Singapore\
 
 == Work Experience
 #chiline()
-*Jane Street Asia Limited* #h(1fr) Hong Kong SAR \
+*Jane Street* #h(1fr) Hong Kong SAR \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 - Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
 - Designed an incremental synchronization prototype to mirror an internally defined DSL-based database into a SQL backend, supporting schema evolution with idempotent upserts and conflict-safe application of changes
 - Benchmarked the new path and observed ~5× faster queries versus the legacy approach under representative workloads; added end-to-end tests and tooling to validate correctness and performance
 
-*TikTok Pte. Ltd.* #h(1fr) Singapore \
+*TikTok* #h(1fr) Singapore \
 Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 - Co-designed and implemented a metrics metadata management service that standardizes metric naming, ownership, and label conventions, bridging development and SRE practices across large-scale services
 - Built a persistent global SLI framework that defines, computes, and monitors service-level indicators consistently across regions and tiers, enabling uniform dashboards and alerting
