@@ -29,7 +29,7 @@ Master of Science in Computer Science #h(1fr) Atlanta, Georgia, USA \
 - GPA: 4.0 / 4.0; Expected Graduation: Jun 2027
 
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
-Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore, Singapore\
+Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore \
 - Honours (Highest Distinction); GPA: 4.63 / 5.0
 
 
@@ -41,8 +41,8 @@ PhD Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - A
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
-- Engineered a unified RPC library that abstracts version conversion and registration for both JSON-RPC and Async-RPC, eliminating code duplication and preventing interface drift in multi-protocol services; streamlined the development workflow by ensuring strict consistency across schema updates.
-- Developed a SQL-compatible database mirror to offload lightweight schemas from a complex legacy DSL system, significantly reducing onboarding friction and development costs for new engineers; designed an incremental synchronization pipeline that achieved a ~5x performance speedup for target queries.
+- Engineered a unified RPC library that abstracts version conversion and registration for both *JSON-RPC* and *Async-RPC*, eliminating code duplication and preventing interface drift in multi-protocol services; streamlined the development workflow by ensuring strict consistency across schema updates.
+- Developed a SQL-compatible database mirror to offload lightweight schemas from a complex legacy DSL system, significantly reducing onboarding friction and development costs for new engineers; designed an incremental synchronization pipeline that achieved a *5x performance speedup* for target queries.
 // *Jane Street* #h(1fr) Hong Kong \
 // Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 // - Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
@@ -51,7 +51,7 @@ Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 
 *TikTok* #h(1fr) Singapore \
 Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
-- Developed a metadata service managing 1,000+ microservices by actively capturing metrics, which standardized governance and unified regional visibility for SREs.
+- Developed a metadata service managing *1,000+ microservices* by actively capturing metrics, which standardized governance and unified regional visibility for SREs.
 - Built a persistent SLI framework that pre-computes indicators to replace expensive raw data queries, enabling fine-grained analysis with minimal latency.
 // *TikTok* #h(1fr) Singapore \
 // Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
@@ -72,9 +72,9 @@ Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 == Open Source Projects
 #chiline()
 *ServerlessLLM* #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
-Core Contributor #h(1fr) Jun 2024 -- May 2025 \
-- Engineered ROCm support for high-throughput model loading on AMD GPUs, significantly reducing cold-start latency.
-- Developed the system controller to coordinate backend lifecycles (init, scaling), ensuring reliability under multi-tenant workloads.
+Core Developer #h(1fr) Jun 2024 -- May 2025 \
+- Engineered *ROCm support* for high-throughput model loading on AMD GPUs, significantly reducing cold-start latency.
+- Developed the *system controller* to coordinate backend lifecycles (init, scaling), intergrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
 - Drove project growth to *600+ stars* by leading code reviews, triaging issues, and maintaining documentation.
 
 == Honors and Awards
