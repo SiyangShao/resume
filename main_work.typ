@@ -1,5 +1,3 @@
-#show link: underline
-
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
 #set text(
@@ -20,8 +18,10 @@
 }
 
 = Siyang Shao
-siyangshao\@gmail.com|
-(470) 378-9780 | #link("https://github.com/SiyangShao")[github.com/SiyangShao]
+siyangshao\@gmail.com |
+(470) 378-9780 |
+#link("https://github.com/SiyangShao")[github.com/SiyangShao] |
+#link("https://www.linkedin.com/in/shaosy/")[linkedin.com/in/shaosy/]
 == Education
 #chiline()
 #link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Current \
