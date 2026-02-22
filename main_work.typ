@@ -77,17 +77,18 @@ Core Developer #h(1fr) Jun 2024 -- May 2025 \
 - Developed the *system controller* to coordinate backend lifecycles (init, scaling), intergrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
 - Drove project growth to *600+ stars* by leading code reviews, triaging issues, and maintaining documentation.
 
-== Honors and Awards
+== Selected Awards
 #chiline()
 
-- Runner-up (Ranked 2), ICPC Asia Manila Regional #h(1fr) Dec 2022
-- Ranked 22, ICPC Asia Pacific Championship #h(1fr) Mar 2024
+- *ICPC (International Collegiate Programming Contest) Multi-Medalist* #h(1fr) 2022 - 2025
+  - Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers 
+  - Asia Pacific Regionals: *Ranked 2nd* in Manila ('22); secured Top 15 finishes in Jakarta ('23, '24)
 // - 2022 ICPC Asia Manila Regional Ranked 2 #h(1fr) Dec 2022
 // - 2023 ICPC Asia Jakarta Regional Ranked 13 #h(1fr) Dec 2023
 // - 2024 ICPC Asia Pacific Championship Ranked 22 #h(1fr) Mar 2024
 // - 2025 ICPC Asia Jakarta Regional Ranked 11 #h(1fr) Dec 2024
 // - 2025 ICPC Asia Pacific Championship Ranked 24 #h(1fr) Mar 2025
-- Dean's List (Top 5% of cohort) #h(1fr) Aug 2023
+- *Dean's List* (Top 5% of cohort) #h(1fr) Aug 2023
 - NTU President Research Scholar #h(1fr) Aug 2024
 // - Shopee Code League Finalist #h(1fr) Mar 2022
 // - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
@@ -95,6 +96,6 @@ Core Developer #h(1fr) Jun 2024 -- May 2025 \
 == Skills
 #chiline()
 
-- Languages: C++, Python, Rust, OCaml, Go
+- Programming Languages: C++, Python, Rust, OCaml, Go
 
 - Tech: CUDA, Triton, vLLM, SGLang, PyTorch, Ray, ZeroMQ, gRPC, Docker, Kubernetes
