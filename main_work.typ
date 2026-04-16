@@ -34,11 +34,8 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 == Work Experience
 #chiline()
 *Tiktok* #h(1fr) San Jose, California, USA\
-PhD Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
-- TBD 1
-- TBD 2
-- TBD 3
-- TBD 4
+Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
+- I'll do sth, TBD
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
@@ -86,16 +83,17 @@ Core Contributor #h(1fr) 2024 -- 2025 \
 == Selected Awards
 #chiline()
 
-- *ICPC (International Collegiate Programming Contest) Multi-Medalist* #h(1fr) 2022 - 2025
-  - Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers 
-  - Asia Pacific Regionals: *Ranked 2nd* in Manila ('22); secured Top 15 finishes in Jakarta ('23, '24)
-// - 2022 ICPC Asia Manila Regional Ranked 2 #h(1fr) Dec 2022
+// - *ICPC (International Collegiate Programming Contest) Multi-Medalist* #h(1fr) 2022 - 2025
+//   - Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers 
+//   - Asia Pacific Regionals: *Ranked 2nd* in Manila ('22); secured Top 15 finishes in Jakarta ('23, '24)
+- ICPC Asia Pacific Manila Regional: *Ranked 2nd (Silver Medal)* #h(1fr) Dec 2022
+- ICPC Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers  #h(1fr) 2024 - 2025
 // - 2023 ICPC Asia Jakarta Regional Ranked 13 #h(1fr) Dec 2023
 // - 2024 ICPC Asia Pacific Championship Ranked 22 #h(1fr) Mar 2024
 // - 2025 ICPC Asia Jakarta Regional Ranked 11 #h(1fr) Dec 2024
 // - 2025 ICPC Asia Pacific Championship Ranked 24 #h(1fr) Mar 2025
-- *Dean's List* (Top 5% of cohort) #h(1fr) Aug 2023
-- *NTU President Research Scholar* #h(1fr) Aug 2024
+- Dean's List (Top 5% of cohort) #h(1fr) Aug 2023
+// - *NTU President Research Scholar* #h(1fr) Aug 2024
 // - Shopee Code League Finalist #h(1fr) Mar 2022
 // - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
 
