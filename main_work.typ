@@ -72,16 +72,16 @@ Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 
 == Projects
 #chiline()
-*Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
-Core Developer #h(1fr) Nov 2024 -- Nov 2025 \
-- Discovered that optimal tensor parallelism (TP) level in LLM serving varies with input/output sequence lengths; designed a scheduler leveraging *live migration* and *dynamic tensor parallelism* to adjust TP levels at runtime for general LLM serving.
-- Achieved *sub-1s resharding* on NVLink-connected clusters built on *vLLM*, delivering *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
-
-*ServerlessLLM* — _Serverless LLM Serving with Fast Checkpoint Loading_ #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
-Core Developer #h(1fr) Jun 2024 -- May 2025 \
+*ServerlessLLM* (*600+* #sym.star.filled) — _Fast Checkpoint Loading for LLM Serving_ #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
+Core Maintainer #h(1fr) 2024 -- 2026 \
 - Engineered *ROCm support* for high-throughput model loading on AMD GPUs, achieving *6–10x faster cold-start* latency.
 - Developed the *system controller* to coordinate backend lifecycles (init, scaling), integrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
-- Drove project growth to *600+ stars* by leading code reviews, triaging issues, and maintaining documentation.
+- Led code reviews, issue triage, and documentation for a community-driven project with contributors across academia and industry.
+
+*Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
+Core Contributor #h(1fr) 2024 -- 2025 \
+- Discovered that optimal tensor parallelism (TP) level in LLM serving varies with input/output sequence lengths; designed a scheduler leveraging *live migration* and *dynamic tensor parallelism* to adjust TP levels at runtime for general LLM serving.
+- Achieved *sub-1s resharding* on NVLink-connected clusters built on *vLLM*, delivering *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
 
 == Selected Awards
 #chiline()
