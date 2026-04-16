@@ -42,8 +42,8 @@ PhD Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - A
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
-- Engineered a unified RPC library that abstracts version conversion and registration for both *JSON-RPC* and *Async-RPC*, eliminating code duplication and preventing interface drift in multi-protocol services; streamlined the development workflow by ensuring strict consistency across schema updates.
-- Developed a SQL-compatible database mirror to offload lightweight schemas from a complex legacy DSL system, significantly reducing onboarding friction and development costs for new engineers; designed an incremental synchronization pipeline that achieved a *5x performance speedup* for target queries.
+- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion, replacing a manual dual-maintenance workflow and eliminating *\~50 lines of duplicate code* per endpoint; deployed across *2 services*.
+- Developed a SQL-compatible database mirror to replace a complex legacy DSL system, reducing onboarding from a *10+ page internal guide* to familiar SQL; covered *8 core schemas* and their derived schemas with an incremental sync pipeline achieving a *5x query speedup*.
 // *Jane Street* #h(1fr) Hong Kong \
 // Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 // - Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
@@ -53,7 +53,7 @@ Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 *TikTok* #h(1fr) Singapore \
 Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 - Developed a metadata service managing *1,000+ microservices* by actively capturing metrics, which standardized governance and unified regional visibility for SREs.
-- Built a persistent SLI framework that pre-computes indicators to replace expensive raw data queries, enabling fine-grained analysis with minimal latency.
+- Built a persistent SLI framework supporting *20+ configurable indicators*, enabling SREs to trace and audit historical alert metrics with pre-computed dashboards instead of ad-hoc queries.
 // *TikTok* #h(1fr) Singapore \
 // Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 // - Co-designed and implemented a metrics metadata management service that standardizes metric naming, ownership, and label conventions, bridging development and SRE practices across large-scale services
@@ -70,7 +70,7 @@ Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 // - Maintained the system controller coordinating lifecycle management of inference backends (init, health, scale in/out), improving reliability under multi-tenant workloads
 // - Collaborated with contributors by reviewing PRs, triaging issues, and updating docs to ensure release quality and reproducibility
 
-== Open Source Projects
+== Projects
 #chiline()
 *Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
 Core Developer #h(1fr) Nov 2024 -- Nov 2025 \
@@ -79,8 +79,8 @@ Core Developer #h(1fr) Nov 2024 -- Nov 2025 \
 
 *ServerlessLLM* — _Serverless LLM Serving with Fast Checkpoint Loading_ #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
 Core Developer #h(1fr) Jun 2024 -- May 2025 \
-- Engineered *ROCm support* for high-throughput model loading on AMD GPUs, significantly reducing cold-start latency.
-- Developed the *system controller* to coordinate backend lifecycles (init, scaling), intergrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
+- Engineered *ROCm support* for high-throughput model loading on AMD GPUs, achieving *6–10x faster cold-start* latency.
+- Developed the *system controller* to coordinate backend lifecycles (init, scaling), integrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
 - Drove project growth to *600+ stars* by leading code reviews, triaging issues, and maintaining documentation.
 
 == Selected Awards
