@@ -9,7 +9,8 @@
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
 
-#set par(justify: true)
+#set par(justify: true, leading: 0.5em)
+#show heading: set block(above: 0.8em, below: 0.4em)
 
 #let chiline() = {
   v(-3pt)
@@ -24,20 +25,20 @@ siyangshao\@gmail.com |
 #link("https://www.linkedin.com/in/shaosy/")[linkedin.com/in/shaosy/]
 == Education
 #chiline()
-#link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Current \
-Master of Science in Computer Science #h(1fr) Atlanta, Georgia, USA \
-- GPA: 4.0 / 4.0; Expected Graduation: Jun 2027
-
+#link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Jun 2027 \
+Master of Science in Computer Science; GPA: 4.0 / 4.0 #h(1fr) Atlanta, Georgia, USA \
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
-Bachelor of Engineering (Computer Engineering) #h(1fr) Singapore \
-- Honours (Highest Distinction); GPA: 4.63 / 5.0
+Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); GPA: 4.63 / 5.0 #h(1fr) Singapore \
 
 
 == Work Experience
 #chiline()
 *Tiktok* #h(1fr) San Jose, California, USA\
 PhD Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
-- TBD
+- TBD 1
+- TBD 2
+- TBD 3
+- TBD 4
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
@@ -94,7 +95,7 @@ Core Developer #h(1fr) Jun 2024 -- May 2025 \
 // - 2025 ICPC Asia Jakarta Regional Ranked 11 #h(1fr) Dec 2024
 // - 2025 ICPC Asia Pacific Championship Ranked 24 #h(1fr) Mar 2025
 - *Dean's List* (Top 5% of cohort) #h(1fr) Aug 2023
-- NTU President Research Scholar #h(1fr) Aug 2024
+- *NTU President Research Scholar* #h(1fr) Aug 2024
 // - Shopee Code League Finalist #h(1fr) Mar 2022
 // - ICPC Trainning Camp Powered by Huawei (Top 10 in South East Asia and Asia Pacific) #h(1fr) Feb 2022
 
