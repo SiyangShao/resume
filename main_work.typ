@@ -71,7 +71,12 @@ Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 
 == Open Source Projects
 #chiline()
-*ServerlessLLM* #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
+*Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
+Core Developer #h(1fr) Nov 2024 -- Nov 2025 \
+- Discovered that optimal tensor parallelism (TP) level in LLM serving varies with input/output sequence lengths; designed a scheduler leveraging *live migration* and *dynamic tensor parallelism* to adjust TP levels at runtime for general LLM serving.
+- Achieved *sub-1s resharding* on NVLink-connected clusters built on *vLLM*, delivering *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
+
+*ServerlessLLM* — _Serverless LLM Serving with Fast Checkpoint Loading_ #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
 Core Developer #h(1fr) Jun 2024 -- May 2025 \
 - Engineered *ROCm support* for high-throughput model loading on AMD GPUs, significantly reducing cold-start latency.
 - Developed the *system controller* to coordinate backend lifecycles (init, scaling), intergrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
