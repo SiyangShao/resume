@@ -1,3 +1,5 @@
+#set document(title: "Siyang Shao - Resume", author: "Siyang Shao")
+
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
 #set text(
