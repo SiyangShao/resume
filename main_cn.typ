@@ -4,7 +4,7 @@
 // The recommend resume text size is from `10pt` to `12pt`
 #set text(
   size: 11pt,
-  font: ("Times New Roman", "PingFang SC"),
+  font: ("Times New Roman", "Liberation Serif", "PingFang SC", "Noto Sans CJK SC"),
   lang: "zh",
   region: "cn",
   cjk-latin-spacing: auto,
