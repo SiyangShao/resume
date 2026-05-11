@@ -25,9 +25,12 @@ jobs:
       - name: Install fallback fonts
         run: sudo apt-get update && sudo apt-get install -y fonts-liberation fonts-noto-cjk
 
+      - name: List fonts seen by Typst
+        run: typst fonts | grep -iE 'noto|cjk|sc' || echo "no CJK fonts visible"
+
       - run: |
-          typst compile main.typ
-          typst compile main_cn.typ
+          typst compile --font-path /usr/share/fonts main.typ
+          typst compile --font-path /usr/share/fonts main_cn.typ
 
       - name: Prepare site
         run: |
