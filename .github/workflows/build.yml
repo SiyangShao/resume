@@ -22,12 +22,15 @@ jobs:
 
       - uses: typst-community/setup-typst@v4
 
-      - run: typst compile main.typ
+      - run: |
+          typst compile main.typ
+          typst compile main_cn.typ
 
       - name: Prepare site
         run: |
           mkdir -p site
           cp main.pdf site/main.pdf
+          cp main_cn.pdf site/main_cn.pdf
 
       - uses: actions/upload-pages-artifact@v3
         with:
