@@ -37,7 +37,7 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 #chiline()
 *Tiktok* #h(1fr) San Jose, California, USA\
 Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
-- I'll do sth, TBD
+- Built a AI Agent to optimize CUDA kernels for recommendation infra
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
