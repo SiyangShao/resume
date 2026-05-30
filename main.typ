@@ -37,7 +37,9 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 #chiline()
 *Tiktok* #h(1fr) San Jose, California, USA\
 Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
-- Built a AI Agent to optimize CUDA kernels for recommendation infra
+- Designed and implemented an autonomous, end-to-end AI agent to optimize recommendation model inference pipelines.
+- Enpowred the agent with capabilities to analyze model graphs and determine optimal subgraph partitions for kernel fusion.
+- Implemented a closed-loop self-evolution harness that empowers the agent to autonomously generate, profile, and refine CUDA/Triton kernels based on real-time performance feedback.
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
