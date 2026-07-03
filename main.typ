@@ -35,16 +35,16 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 
 == Work Experience
 #chiline()
-*Tiktok* #h(1fr) San Jose, California, USA\
+*TikTok* #h(1fr) San Jose, California, USA\
 Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
-- Designed and implemented an autonomous *inference optimization agent* that autonomous the end-to-end efficiency pipeline: model profilling, graph substraction fusion, CUDA kernel generation, and serving configuration search.
-- Developed a closed-loop optimization engine that automatically target the bottlenecks and generates optimized fusion CUDA kernels, *reducing end-to-end latency by ~2x* at fixed batch sizes.
-- Deployed the agent into production recommendation serving to dynamically tune batch size and batching wait times under strict SLOs, driving a *1.8x QPS improvement* accorss multiple models.
+- Designed and implemented an autonomous *inference optimization agent* that automated the end-to-end efficiency pipeline: model profiling, graph fusion, CUDA kernel generation, and serving configuration search.
+- Developed a closed-loop optimization engine that automatically targeted bottlenecks and generated optimized fusion CUDA kernels, *reducing end-to-end latency by ~2x* at fixed batch sizes.
+- Deployed the agent into production recommendation serving to dynamically tune batch sizes and batch wait times under strict SLOs, driving a *1.8x QPS improvement* on a production model.
 
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
-- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion, replacing a manual dual-maintenance workflow and eliminating *\~50 lines of duplicate code* per endpoint; deployed across *2 services*.
-- Developed a SQL-compatible database mirror to replace a complex legacy DSL system, reducing onboarding from a *10+ page internal guide* to familiar SQL; covered *8 core schemas* and their derived schemas with an incremental sync pipeline achieving a *5x query speedup*.
+- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion, replacing a manual dual-maintenance workflow and eliminating *\~50 lines of duplicate code* per endpoint; deployed it across *2 services*.
+- Developed a SQL-compatible database mirror to replace a complex legacy DSL system, reducing onboarding from a *10+ page internal guide* to familiar SQL; implemented an incremental sync pipeline covering *8 core schemas* and their derived schemas, achieving a *5x query speedup*.
 // *Jane Street* #h(1fr) Hong Kong \
 // Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 // - Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
@@ -53,8 +53,8 @@ Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 
 *TikTok* #h(1fr) Singapore \
 Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
-- Developed a metadata service managing *1,000+ microservices* by actively capturing metrics, which standardized governance and unified regional visibility for SREs.
-- Built a persistent SLI framework supporting *20+ configurable indicators*, enabling SREs to trace and audit historical alert metrics with pre-computed dashboards instead of ad-hoc queries.
+- Developed a metadata service that actively captured metrics for *1,000+ microservices*, standardizing governance and unifying regional visibility for SREs.
+- Built a persistent SLI framework supporting *20+ configurable indicators*, enabling SREs to trace and audit historical alert metrics with precomputed dashboards instead of ad hoc queries.
 // *TikTok* #h(1fr) Singapore \
 // Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 // - Co-designed and implemented a metrics metadata management service that standardizes metric naming, ownership, and label conventions, bridging development and SRE practices across large-scale services
@@ -75,14 +75,14 @@ Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 #chiline()
 *ServerlessLLM* (*600+* #sym.star.filled) — _Fast Checkpoint Loading for LLM Serving_ #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
 Core Maintainer #h(1fr) 2024 -- 2026 \
-- Engineered *ROCm support* for high-throughput model loading on AMD GPUs, achieving *6–10x faster cold-start* latency.
-- Developed the *system controller* to coordinate backend lifecycles (init, scaling), integrating the system with *vLLM*, *ray*, etc., ensuring reliability under multi-tenant workloads.
+- Engineered *ROCm support* for high-throughput model loading on AMD GPUs, reducing cold-start latency by *6–10x*.
+- Developed the *system controller* to coordinate backend lifecycles (init, scaling) and integrate with *vLLM* and *Ray*, improving reliability under multi-tenant workloads.
 - Led code reviews, issue triage, and documentation for a community-driven project with contributors across academia and industry.
 
 *Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
 Core Contributor #h(1fr) 2024 -- 2025 \
-- Discovered that optimal tensor parallelism (TP) level in LLM serving varies with input/output sequence lengths; designed a scheduler leveraging *live migration* and *dynamic tensor parallelism* to adjust TP levels at runtime for general LLM serving.
-- Achieved *sub-1s resharding* on NVLink-connected clusters built on *vLLM*, delivering *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
+- Discovered that the optimal tensor parallelism (TP) level in LLM serving varies with input/output sequence lengths; designed a scheduler leveraging *live migration* and *dynamic tensor parallelism* to adjust TP levels at runtime for general-purpose LLM serving.
+- Achieved *sub-1s resharding* on NVLink-connected clusters using *vLLM*, delivering a *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
 
 == Selected Awards
 #chiline()
@@ -91,7 +91,7 @@ Core Contributor #h(1fr) 2024 -- 2025 \
 //   - Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers 
 //   - Asia Pacific Regionals: *Ranked 2nd* in Manila ('22); secured Top 15 finishes in Jakarta ('23, '24)
 - ICPC Asia Pacific Manila Regional: *Ranked 2nd (Silver Medal)* #h(1fr) Dec 2022
-- ICPC Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers  #h(1fr) 2024 - 2025
+- ICPC Asia Pacific Championship: *Ranked 22nd* ('24) & *24th* ('25) among top regional qualifiers  #h(1fr) 2024 - 2025
 // - 2023 ICPC Asia Jakarta Regional Ranked 13 #h(1fr) Dec 2023
 // - 2024 ICPC Asia Pacific Championship Ranked 22 #h(1fr) Mar 2024
 // - 2025 ICPC Asia Jakarta Regional Ranked 11 #h(1fr) Dec 2024
