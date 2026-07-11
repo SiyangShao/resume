@@ -12,8 +12,8 @@
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
 
-#set par(justify: true, leading: 0.42em)
-#show heading: set block(above: 0.65em, below: 0.28em)
+#set par(justify: true, leading: 0.5em)
+#show heading: set block(above: 0.5em, below: 0.4em)
 
 #let chiline() = {
   v(-3pt)
