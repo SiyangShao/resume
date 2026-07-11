@@ -4,15 +4,16 @@
 // The recommend resume text size is from `10pt` to `12pt`
 #set text(
   size: 11pt,
+  hyphenate: false,
 )
 
-// Feel free to change the margin below to best fit your own CV
-#set page(margin: (x: 0.9cm, y: 1.3cm))
+// US Letter is the standard page size for US full-time applications.
+#set page(paper: "us-letter", margin: (x: 0.45in, y: 0.45in))
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
 
-#set par(justify: true, leading: 0.5em)
-#show heading: set block(above: 0.8em, below: 0.4em)
+#set par(justify: true, leading: 0.42em)
+#show heading: set block(above: 0.65em, below: 0.28em)
 
 #let chiline() = {
   v(-3pt)
@@ -27,7 +28,7 @@ siyangshao\@gmail.com |
 #link("https://www.linkedin.com/in/shaosy/")[linkedin.com/in/shaosy/]
 == Education
 #chiline()
-#link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Jun 2027 \
+#link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Jun 2027 (Expected) \
 Master of Science in Computer Science; GPA: 4.0 / 4.0 #h(1fr) Atlanta, Georgia, USA \
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
 Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); GPA: 4.63 / 5.0 #h(1fr) Singapore \
@@ -36,15 +37,16 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 == Work Experience
 #chiline()
 *TikTok* #h(1fr) San Jose, California, USA\
-Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 - Aug 2026
-- Designed and implemented an autonomous *inference optimization agent* that automated the end-to-end efficiency pipeline: model profiling, graph fusion, CUDA kernel generation, and serving configuration search.
-- Developed a closed-loop optimization engine that automatically targeted bottlenecks and generated optimized fusion CUDA kernels, *reducing end-to-end latency by ~2x* at fixed batch sizes.
-- Deployed the agent into production recommendation serving to dynamically tune batch sizes and batch wait times under strict SLOs, driving a *1.8x QPS improvement* on a production model.
+Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 -- Present
+- Designed and implemented an autonomous *LLM agent for inference optimization* that automated the end-to-end efficiency pipeline: model profiling, graph fusion, CUDA kernel generation, and serving-configuration search.
+- Developed a closed-loop optimization engine that automatically identified bottlenecks and generated optimized CUDA fusion kernels, *halving end-to-end latency* at fixed batch sizes.
+- Deployed the agent to production recommendation serving, dynamically tuning batch sizes and wait times under strict SLOs and driving a *1.8x QPS improvement* for a production model.
 
 *Jane Street* #h(1fr) Hong Kong \
-Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
-- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion, replacing a manual dual-maintenance workflow and eliminating *\~50 lines of duplicate code* per endpoint; deployed it across *2 services*.
-- Developed a SQL-compatible database mirror to replace a complex legacy DSL system, reducing onboarding from a *10+ page internal guide* to familiar SQL; implemented an incremental sync pipeline covering *8 core schemas* and their derived schemas, achieving a *5x query speedup*.
+Software Engineer Intern #h(1fr) May 2025 -- Jul 2025 \
+- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion, replacing manual dual maintenance and eliminating *\~50 lines of duplicate code* per endpoint; deployed across *2 services*.
+- Built a SQL-compatible mirror of a legacy DSL-based database with incremental synchronization, supporting schema evolution across *8 core schemas* and their derived schemas via idempotent upserts and conflict-safe change application.
+- Benchmarked the new path at a *5x query speedup* over the legacy system and added end-to-end tests and tooling to validate correctness and performance.
 // *Jane Street* #h(1fr) Hong Kong \
 // Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 // - Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
@@ -52,9 +54,9 @@ Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 // - Benchmarked the new path and observed ~5× faster queries versus the legacy approach under representative workloads; added end-to-end tests and tooling to validate correctness and performance
 
 *TikTok* #h(1fr) Singapore \
-Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
-- Developed a metadata service that actively captured metrics for *1,000+ microservices*, standardizing governance and unifying regional visibility for SREs.
-- Built a persistent SLI framework supporting *20+ configurable indicators*, enabling SREs to trace and audit historical alert metrics with precomputed dashboards instead of ad hoc queries.
+Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 -- May 2024 \
+- Developed a metadata service that captured metrics from *1,000+ microservices*, standardizing governance and providing SREs with unified regional visibility.
+- Built a persistent SLI framework supporting *20+ configurable indicators*, enabling SREs to trace and audit historical alert metrics through precomputed dashboards rather than ad hoc queries.
 // *TikTok* #h(1fr) Singapore \
 // Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
 // - Co-designed and implemented a metrics metadata management service that standardizes metric naming, ownership, and label conventions, bridging development and SRE practices across large-scale services
@@ -81,7 +83,7 @@ Core Maintainer #h(1fr) 2024 -- 2026 \
 
 *Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
 Core Contributor #h(1fr) 2024 -- 2025 \
-- Discovered that the optimal tensor parallelism (TP) level in LLM serving varies with input/output sequence lengths; designed a scheduler leveraging *live migration* and *dynamic tensor parallelism* to adjust TP levels at runtime for general-purpose LLM serving.
+- Built a scheduler around input/output-dependent optimal tensor parallelism (TP) levels in LLM serving, using *live migration* and *dynamic tensor parallelism* to adapt TP at runtime.
 - Achieved *sub-1s resharding* on NVLink-connected clusters using *vLLM*, delivering a *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
 
 == Selected Awards
@@ -91,7 +93,7 @@ Core Contributor #h(1fr) 2024 -- 2025 \
 //   - Asia Pacific Championship: *Ranked 22* ('24) & *24* ('25) out of top regional qualifiers 
 //   - Asia Pacific Regionals: *Ranked 2nd* in Manila ('22); secured Top 15 finishes in Jakarta ('23, '24)
 - ICPC Asia Pacific Manila Regional: *Ranked 2nd (Silver Medal)* #h(1fr) Dec 2022
-- ICPC Asia Pacific Championship: *Ranked 22nd* ('24) & *24th* ('25) among top regional qualifiers  #h(1fr) 2024 - 2025
+- ICPC Asia Pacific Championship: *Ranked 22nd* ('24) & *24th* ('25) among top regional qualifiers  #h(1fr) 2024 -- 2025
 // - 2023 ICPC Asia Jakarta Regional Ranked 13 #h(1fr) Dec 2023
 // - 2024 ICPC Asia Pacific Championship Ranked 22 #h(1fr) Mar 2024
 // - 2025 ICPC Asia Jakarta Regional Ranked 11 #h(1fr) Dec 2024
@@ -104,6 +106,6 @@ Core Contributor #h(1fr) 2024 -- 2025 \
 == Skills
 #chiline()
 
-- Programming Languages: C++, Python, Rust, OCaml, Go
+- Programming Languages: C++, Rust, OCaml, Python, Go
 
-- Tech: CUDA, Triton, vLLM, SGLang, PyTorch, Ray, ZeroMQ, gRPC, Docker, Kubernetes
+- Technologies: CUDA, Triton, vLLM, SGLang, PyTorch, Ray, ZeroMQ, gRPC, Docker, Kubernetes
