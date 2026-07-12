@@ -106,6 +106,6 @@ Core Contributor #h(1fr) 2024 -- 2025 \
 == Skills
 #chiline()
 
-- Programming Languages: C++, Rust, OCaml, Python, Go
+- Programming Languages: C++, OCaml, Python, Go
 
 - Technologies: CUDA, Triton, vLLM, SGLang, PyTorch, Ray, ZeroMQ, gRPC, Docker, Kubernetes
