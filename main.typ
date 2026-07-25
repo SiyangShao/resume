@@ -1,7 +1,7 @@
 #set document(title: "Siyang Shao - Resume", author: "Siyang Shao")
 
 // Uncomment the following lines to adjust the size of text
-// The recommend resume text size is from `10pt` to `12pt`
+// The recommended resume text size is from `10pt` to `12pt`
 #set text(
   size: 11pt,
   hyphenate: false,
@@ -18,7 +18,7 @@
 #let chiline() = {
   v(-3pt)
   line(length: 100%)
-  v(-5pt)
+  v(-8pt)
 }
 
 = Siyang Shao
@@ -38,24 +38,22 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 #chiline()
 *TikTok* #h(1fr) San Jose, California, USA\
 Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 -- Present
-- Designed and implemented an autonomous *LLM agent for inference optimization* that automated the end-to-end efficiency pipeline: model profiling, graph fusion, CUDA kernel generation, and serving-configuration search.
-- Developed a closed-loop optimization engine that automatically identified bottlenecks and generated optimized CUDA fusion kernels, *halving end-to-end latency* at fixed batch sizes.
-- Deployed the agent to production recommendation serving, dynamically tuning batch sizes and wait times under strict SLOs and driving a *1.8x QPS improvement* for a production model.
-
+- Designed and implemented an autonomous *LLM agent for inference optimization* that automated the full optimization workflow: model profiling, graph fusion, CUDA kernel generation, and serving configuration search, *halving end-to-end latency* at fixed batch sizes.
+- Deployed the agent in a production recommendation serving system, where it dynamically tuned batch sizes and wait times under strict SLOs and delivered a *1.8x QPS improvement* for a production model.
+- Migrated a production model's training and inference pipelines from TensorFlow to PyTorch; refactored graph-level control flow to eliminate graph breaks and enable full-graph compilation with `torch.compile`, achieving a *6x end-to-end inference speedup*.
 *Jane Street* #h(1fr) Hong Kong \
 Software Engineer Intern #h(1fr) May 2025 -- Jul 2025 \
-- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion, replacing manual dual maintenance and eliminating *\~50 lines of duplicate code* per endpoint; deployed across *2 services*.
+- Built a unified *JSON-RPC / Async-RPC* declaration library with automatic version conversion and deployed it across *2 services*, eliminating the need to maintain separate declarations and removing *\~50 lines of duplicate code* per endpoint.
 - Built a SQL-compatible mirror of a legacy DSL-based database with incremental synchronization, supporting schema evolution across *8 core schemas* and their derived schemas via idempotent upserts and conflict-safe change application.
-- Benchmarked the new path at a *5x query speedup* over the legacy system and added end-to-end tests and tooling to validate correctness and performance.
+- Measured a *5x query speedup* over the legacy system and added end-to-end tests and tooling to validate correctness and performance.
 // *Jane Street* #h(1fr) Hong Kong \
 // Software Engineer Intern #h(1fr) May 2025 - Jul 2025 \
 // - Built a version-conversion library for JSON-RPC that aligns JSON-RPC and async-RPC under a unified declaration, enabling seamless backward/forward compatibility and reducing integration overhead across services
 // - Designed an incremental synchronization prototype to mirror an internally defined DSL-based database into a SQL backend, supporting schema evolution with idempotent upserts and conflict-safe application of changes
 // - Benchmarked the new path and observed ~5× faster queries versus the legacy approach under representative workloads; added end-to-end tests and tooling to validate correctness and performance
-
 *TikTok* #h(1fr) Singapore \
 Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 -- May 2024 \
-- Developed a metadata service that captured metrics from *1,000+ microservices*, standardizing governance and providing SREs with unified regional visibility.
+- Developed a metadata service that captured metrics from *1,000+ microservices*, standardizing metric governance and providing SREs with unified regional visibility.
 - Built a persistent SLI framework supporting *20+ configurable indicators*, enabling SREs to trace and audit historical alert metrics through precomputed dashboards rather than ad hoc queries.
 // *TikTok* #h(1fr) Singapore \
 // Backend Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 - May 2024 \
@@ -78,13 +76,13 @@ Software Engineer Intern, Video Infrastructure #h(1fr) Jan 2024 -- May 2024 \
 *ServerlessLLM* (*600+* #sym.star.filled) — _Fast Checkpoint Loading for LLM Serving_ #h(1fr) #link("https://github.com/ServerlessLLM/ServerlessLLM")[github.com/ServerlessLLM/ServerlessLLM] \
 Core Maintainer #h(1fr) 2024 -- 2026 \
 - Engineered *ROCm support* for high-throughput model loading on AMD GPUs, reducing cold-start latency by *6–10x*.
-- Developed the *system controller* to coordinate backend lifecycles (init, scaling) and integrate with *vLLM* and *Ray*, improving reliability under multi-tenant workloads.
+- Developed the *system controller* to coordinate backend lifecycles (initialization and scaling) and integrate with *vLLM* and *Ray*, improving reliability under multi-tenant workloads.
 - Led code reviews, issue triage, and documentation for a community-driven project with contributors across academia and industry.
 
 *Liquid* — _Adaptive LLM Inference System with Dynamic Tensor Parallelism_ \
 Core Contributor #h(1fr) 2024 -- 2025 \
-- Built a scheduler around input/output-dependent optimal tensor parallelism (TP) levels in LLM serving, using *live migration* and *dynamic tensor parallelism* to adapt TP at runtime.
-- Achieved *sub-1s resharding* on NVLink-connected clusters using *vLLM*, delivering a *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while maintaining P95 latency SLO.
+- Built a scheduler that selected optimal tensor parallelism (TP) levels based on input and output characteristics, combining *live migration* with *dynamic tensor parallelism* to reconfigure models at runtime.
+- Achieved *sub-1s resharding* on NVLink-connected clusters using *vLLM*, delivering a *1.5x–3.3x throughput improvement* over ServerlessLLM + vLLM baselines while meeting the P95 latency SLO.
 
 == Selected Awards
 #chiline()
