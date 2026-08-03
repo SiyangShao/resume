@@ -37,7 +37,7 @@ Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); G
 == Work Experience
 #chiline()
 *TikTok* #h(1fr) San Jose, California, USA\
-Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 -- Present
+Software Engineer Intern, Recommendation Infrastructure #h(1fr) May 2026 -- Aug 2026
 - Designed and implemented an autonomous *LLM agent for inference optimization* that automated the full optimization workflow: model profiling, graph fusion, CUDA kernel generation, and serving configuration search, *halving end-to-end latency* at fixed batch sizes.
 - Deployed the agent in a production recommendation serving system, where it dynamically tuned batch sizes and wait times under strict SLOs and delivered a *1.8x QPS improvement* for a production model.
 - Migrated a production model's training and inference pipelines from TensorFlow to PyTorch; refactored graph-level control flow to eliminate graph breaks and enable full-graph compilation with `torch.compile`, achieving a *6x end-to-end inference speedup*.
