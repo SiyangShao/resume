@@ -31,7 +31,7 @@ siyangshao\@gmail.com |
 #link("https://www.linkedin.com/in/shaosy/")[linkedin.com/in/shaosy/]
 == 教育经历
 #chiline()
-#link("https://www.gatech.edu/")[*佐治亚理工学院 (Georgia Institute of Technology)*] #h(1fr) 2025.08 -- 2027.06（预计） \
+#link("https://www.gatech.edu/")[*佐治亚理工学院 (Georgia Institute of Technology)*] #h(1fr) 2025.08 -- 2026.12（预计） \
 计算机科学硕士；GPA：4.0 / 4.0 #h(1fr) 美国佐治亚州亚特兰大 \
 #link("https://www.ntu.edu.sg/")[*南洋理工大学 (Nanyang Technological University)*] #h(1fr) 2021.08 -- 2025.06 \
 计算机工程学士（最高荣誉）；GPA：4.63 / 5.0 #h(1fr) 新加坡 \
@@ -40,10 +40,10 @@ siyangshao\@gmail.com |
 == 实习经历
 #chiline()
 *TikTok* #h(1fr) 美国加利福尼亚州圣何塞 \
-软件工程实习生 — 推荐基础架构 #h(1fr) 2026.05 -- 至今
-- 设计并实现 *LLM agent*，自动完成模型性能分析、计算图融合、CUDA kernel 生成和服务配置搜索等推理优化流程。
-- 开发自动优化工具，定位瓶颈并生成优化后的 CUDA 融合 kernel；固定 batch size 下，*端到端延迟降低 50%*。
-- 将 LLM agent 部署到线上推荐服务，在 SLO 约束下动态调整 batch size 和等待时间，使模型的 *QPS 达到原来的 1.8 倍*。
+软件工程实习生 — 推荐基础架构 #h(1fr) 2026.05 -- 2026.08
+- 设计并实现面向推理优化的自主 *LLM agent*，自动完成模型性能分析、计算图融合、CUDA kernel 生成和服务配置搜索全流程；在固定 batch size 下，*将端到端延迟降低 50%*。
+- 将该 agent 部署到线上推荐服务，在严格的 SLO 约束下动态调整 batch size 和等待时间，使线上模型的 *QPS 达到原来的 1.8 倍*。
+- 将线上模型的训练和推理流水线从 TensorFlow 迁移至 PyTorch；重构计算图层面的控制流以消除 graph break，并通过 `torch.compile` 实现整图编译，使*端到端推理速度达到原来的 6 倍*。
 
 *Jane Street* #h(1fr) 中国香港 \
 软件工程实习生 #h(1fr) 2025.05 -- 2025.07 \

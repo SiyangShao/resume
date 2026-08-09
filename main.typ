@@ -28,7 +28,7 @@ siyangshao\@gmail.com |
 #link("https://www.linkedin.com/in/shaosy/")[linkedin.com/in/shaosy/]
 == Education
 #chiline()
-#link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Jun 2027 (Expected) \
+#link("https://www.gatech.edu/")[*Georgia Institute of Technology*] #h(1fr) Aug 2025 -- Dec 2026 (Expected) \
 Master of Science in Computer Science; GPA: 4.0 / 4.0 #h(1fr) Atlanta, Georgia, USA \
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
 Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); GPA: 4.63 / 5.0 #h(1fr) Singapore \
