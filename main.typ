@@ -21,6 +21,10 @@
   v(-8pt)
 }
 
+
+I'm not currently looking for a job, so I've hidden my resume.
+
+/*
 = Siyang Shao
 siyangshao\@gmail.com |
 (470) 378-9780 |
@@ -32,7 +36,6 @@ siyangshao\@gmail.com |
 Master of Science in Computer Science; GPA: 4.0 / 4.0 #h(1fr) Atlanta, Georgia, USA \
 #link("https://www.ntu.edu.sg/")[*Nanyang Technological University*] #h(1fr) Aug 2021 -- Jun 2025 \
 Bachelor of Engineering (Computer Engineering); Honours (Highest Distinction); GPA: 4.63 / 5.0 #h(1fr) Singapore \
-
 
 == Work Experience
 #chiline()
@@ -107,3 +110,5 @@ Core Contributor #h(1fr) 2024 -- 2025 \
 - Programming Languages: C++, OCaml, Python, Go
 
 - Technologies: CUDA, Triton, vLLM, SGLang, PyTorch, Ray, ZeroMQ, gRPC, Docker, Kubernetes
+
+*/

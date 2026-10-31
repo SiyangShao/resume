@@ -15,7 +15,7 @@
   #v(-3pt)
   #line(length: 100%)
 ]
-
+/*
 = Siyang Shao
 siyangshao\@gmail.com |
 (470) 378-9780 |
@@ -67,3 +67,5 @@ Core Contributor \
 - Languages: C++, Python, Go, OCaml
 - AI Systems: CUDA, ROCm, PyTorch, `torch.compile`, Triton, vLLM, SGLang, LMCache, Ray
 - Infrastructure: Linux, gRPC, Prometheus, Docker, Kubernetes, ZeroMQ
+
+*/
